@@ -1,4 +1,5 @@
-# TDA1543 Online Player <img src="https://img.shields.io/badge/license-MIT-brightgreen"> #
+# TDA1543 Online Player
+<img src="https://img.shields.io/badge/license-MIT-brightgreen">
 
 這是一個由 16bit DAC 和 Raspberry PI Zero W 組合的媒體播放器。
 
