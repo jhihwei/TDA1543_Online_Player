@@ -11,10 +11,10 @@ app = Flask(__name__)
 api = Api(app)
 path = 'music'
 ip = '0.0.0.0'
-# if sys.platform == 'linux':
-#     p1 = subprocess.Popen(['hostname', '-I'], stdout=subprocess.PIPE)
-#     ip = subprocess.check_output(['awk', '{print $1}'],stdin=p1.stdout)
-#     ip = ip.decode('utf-8')
+if sys.platform == 'linux':
+    p1 = subprocess.Popen(['hostname', '-I'], stdout=subprocess.PIPE)
+    ip = subprocess.check_output(['awk', '{print $1}'],stdin=p1.stdout)
+    ip = ip.decode('utf-8')
 
 def get_file_list():
     for root, dirs, files in walk(path):
