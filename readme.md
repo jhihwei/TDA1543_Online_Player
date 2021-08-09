@@ -11,6 +11,15 @@
 
 ![TDA1543%20Online%20Player%201f5d435a2eb347819382116ae6784635/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2_2021-08-03_112711.jpg](content/Architecture.jpg)
 
+操作介面(WEB)：
+
+![TDA1543%20Online%20Player%201f5d435a2eb347819382116ae6784635/tda1543_webui.jpg](content/tda1543_webui.jpg)
+
+後端(播放音樂)：
+
+![TDA1543%20Online%20Player%201f5d435a2eb347819382116ae6784635/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2_2021-08-09_111730.jpg](content/console.jpg)
+
+
 ## 驅動 i2s：
 
 ### 編輯 **boot.txt**
